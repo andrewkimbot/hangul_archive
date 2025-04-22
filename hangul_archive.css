@@ -130,7 +130,7 @@ a:hover {
     transition: 0s;
   }
 
-  a:active {
+  a:visited{
     color: black;
   }
 
