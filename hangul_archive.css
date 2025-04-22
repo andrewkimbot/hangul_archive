@@ -85,7 +85,7 @@ h5 {
 
 .fixed h4 img {
     position: absolute;
-    right: 80px;  /* Always 20px from the right edge */
+    right: 80px;
     top: 20px;
     width: 60px;
 }
@@ -373,12 +373,12 @@ li a {
 
   .back-arrow {
     position: absolute;
-    left: 6%; /* aligns with your margin */
+    left: 6%;
     z-index: 10;
   }
   
   .back-arrow img {
-    width: 40px;  /* increase if you want it bigger */
+    width: 40px;
     height: auto;
     cursor: pointer;
   }
@@ -709,7 +709,7 @@ li a {
     background: black;
     border-radius: 50%;
     border: none;
-    margin-top: 0x; /* aligns with track */
+    margin-top: 0x;
   }
   
 
