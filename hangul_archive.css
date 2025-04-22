@@ -130,13 +130,12 @@ a:hover {
     transition: 0s;
   }
 
-  a:link,
-  a:visited,
-  a:active {
+  a:visited{
     color: black;
     text-decoration: none;
     background-color: transparent;
   }
+
 
   .nav-link:hover {
     background-color: rgb(255, 255, 255);
@@ -144,7 +143,11 @@ a:hover {
     transition: 0s;
     text-decoration: underline;
   }
-  
+
+  .nav-link:visited{
+    color: black;
+    text-decoration: none;
+  }
 
 .backtotop img {
 	position: fixed;
