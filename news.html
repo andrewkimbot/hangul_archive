@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Hangul Archive</title>
+<link rel="stylesheet" href="hangul_archive.css">
+<link rel="icon" href="images/hangularchive_logo_icon.png" type="image/png" media="(prefers-color-scheme: light)"> 
+<link rel="icon" href="images/hangularchive_logo_white.png" type="image/png" media="(prefers-color-scheme: dark)"> 
+</head>
+
+<!-- this is how you write a comment describing your code in HTML. the body section is for all content that is visible. Keep it here! Semantic structure is just as important as syntax. -->
+<body>
+	<div class="fixed">
+		<div class="nav-menu">
+			<a href="news.html" class="nav-link active">
+				<div><u>News</div>
+				<div class="kr">뉴스</u></div>
+			</a>
+			<a href="history.html" class="nav-link">
+				<div>History</div>
+				<div class="kr">역사</div>
+			</a>
+			<a href="typeface.html" class="nav-link">
+				<div>Typeface</div>
+				<div class="kr">글꼴</div>
+			</a>
+			<a href="index.html" class="nav-logo-link">
+				<img src="images/hangularchive_logo_icon.png" alt="Hangul Logo" class="nav-logo default-logo">
+				<img src="images/hangularchive_logo_hover.png" alt="Hangul Logo Hover" class="nav-logo hover-logo">
+			  </a>
+		</div>
+	  </div>
+
+	  <div class="filter-panel">
+		<div class="filter-option">
+		  <input type="checkbox" id="exhibitions" class="filter-checkbox">
+		  <span class="custom-box" data-target="exhibitions"></span>
+		  <span class="filter-label">Exhibitions</span>
+		</div>
+	  
+		
+		<div class="filter-option">
+		  <input type="checkbox" id="conference" class="filter-checkbox">
+		  <span class="custom-box" data-target="conference"></span>
+		  <span class="filter-label">Conference</span>
+		</div>
+	  
+		<div class="filter-option">
+		  <input type="checkbox" id="new" class="filter-checkbox">
+		  <span class="custom-box" data-target="new"></span>
+		  <span class="filter-label">New works</span>
+		</div>
+	  </div>
+	  
+	  
+
+
+
+
+	<div class="news-grid">
+		<div class="news-item" data-category="new">
+			<a href="1-hankufi.html">
+			  <img src="images/hankufi.webp" alt="Preview" />
+			  <p class="news-date">AUG 27 2024</p>
+			  <h5 class="news-title">Hankufi: Korean Meets Arabic Through Typography</h5>
+			</a>
+		  </div>
+
+		  <div class="news-item" data-category="conference">
+			<a href="3-project.html">
+			  <img src="images/hangulproject.jpg" alt="Preview" />
+			  <p class="news-date">AUG 5 2018</p>
+			  <h5 class="news-title">Hangul Design Project</h5>
+			</a>
+	  </div>
+
+		  <div class="news-item" data-category="exhibitions">
+			<a href="2-anatomy.html">
+				<img src="images/hangulexhibition.jpg" alt="Preview" />
+				<p class="news-date">OCT 10 2022</p>
+				<h5 class="news-title">Exhibition examines the anatomy of hangul</h5>
+			  </a>
+			</div>
+</div>
+
+
+<div class="backtotop">
+<a href="#top"><img src="images/toparrow2.png"></a>
+</div>
+
+<script src="hangul_archive.js"></script>
+
+</html>
+

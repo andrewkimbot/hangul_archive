@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Hangul Archive</title>
+<link rel="stylesheet" href="hangul_archive.css">
+</head>
+
+<!-- this is how you write a comment describing your code in HTML. the body section is for all content that is visible. Keep it here! Semantic structure is just as important as syntax. -->
+<body>
+	<div class="fixed">
+		<div class="nav-menu">
+		  <a href="news.html" class="nav-link active">
+			<div>News</div>
+			<div class="kr">뉴스</div>
+		  </a>
+		  <a href="history.html" class="nav-link">
+			<div>History</div>
+			<div class="kr">역사</div>
+		  </a>
+		  <a href="typeface.html" class="nav-link">
+			<div><u>Typeface</div>
+			<div class="kr">글꼴</u></div>
+		  </a>
+		  <a href="index.html" class="nav-logo-link">
+			<img src="images/hangularchive_logo_icon.png" alt="Hangul Logo" class="nav-logo default-logo">
+			<img src="images/hangularchive_logo_hover.png" alt="Hangul Logo Hover" class="nav-logo hover-logo">
+		  </a>
+		</div>
+	  </div>
+
+
+	<!-- Activate Keyboard Button -->
+<div class="keyboard-toggle">
+	<a href="#koreanKeyboardModal">Activate Korean Keyboard</a>
+  </div>
+
+	  <div class="typeface-box" style="margin-top: 150px; background-color: #ffffff;">
+		<div class="typeface-name">TAEBAEK MILKYWAY</div>
+		<div class="typeface-preview" contenteditable="true" style="font-family: 'TaebaekMilkyway';">
+			한글 아카이브를 펼치자 <br> 겹겹이 쌓인 문장이 빛을 발했다.
+		  </div>
+		<div class="controls">
+		  <div class="control-group">
+			<label for="size-slider">SIZE</label>
+			<input type="range" id="size-slider" min="32" max="90" value="60" class="size-slider">
+			<span class="size-value">60 PX</span>
+		  </div>
+		</div>
+	  </div>
+	  
+
+	  <div class="typeface-box" style="background-color: #c45959;">
+		<div class="typeface-name">DUNKEL SANS</div>
+		<div class="typeface-preview dunkel-preview" contenteditable="true" style="font-family: 'dunkel-sans-medium', sans-serif;">
+			한글 아카이브를 펼치자 <br> 겹겹이 쌓인 문장이 빛을 발했다.
+		</div>
+		<div class="controls">
+		  <div class="control-group">
+			<label>SIZE</label>
+			<input type="range" id="size-slider" min="32" max="90" value="60" class="size-slider">
+			<span class="size-value">60 PX</span>
+		  </div>
+		</div>
+	  </div>
+
+	  <div class="typeface-box" style="background-color: #f238ff;">
+		<div class="typeface-name">JJBLACKROSE</div>
+		<div class="typeface-preview jjblackrose-preview" contenteditable="true" style="font-family: 'jjblackrose', sans-serif;">
+			한글 아카이브를 펼치자 <br> 겹겹이 쌓인 문장이 빛을 발했다.
+		</div>
+		<div class="controls">
+		  <div class="control-group">
+			<label>SIZE</label>
+			<input type="range" id="size-slider" min="32" max="90" value="60" class="size-slider">
+			<span class="size-value">60 PX</span>
+		  </div>
+		</div>
+	  </div>
+
+
+	  <div class="typeface-box" style="background-color: #ff7d71;">
+		<div class="typeface-name">MYEONGJO</div>
+		<div class="typeface-preview" contenteditable="true" style="font-family: sans-serif;">
+			한글 아카이브를 펼치자 <br> 겹겹이 쌓인 문장이 빛을 발했다.
+		</div>
+		<div class="controls">
+		  <div class="control-group">
+			<label>SIZE</label>
+			<input type="range" id="size-slider" min="32" max="90" value="60" class="size-slider">
+			<span class="size-value">60 PX</span>
+		  </div>
+		</div>
+	  </div>
+
+
+	  <div class="typeface-box" style="background-color: #8dc459;">
+		<div class="typeface-name">GOTHIC</div>
+		<div class="typeface-preview" contenteditable="true" style="font-family: serif;">
+			한글 아카이브를 펼치자 <br> 겹겹이 쌓인 문장이 빛을 발했다.
+		</div>
+		<div class="controls">
+		  <div class="control-group">
+			<label>SIZE</label>
+			<input type="range" id="size-slider" min="32" max="90" value="60" class="size-slider">
+			<span class="size-value">60 PX</span>
+		  </div>
+		</div>
+	  </div>
+
+		
+
+<div class="backtotop">
+<a href="#top"><img src="images/toparrow2.png"></a>
+</div>
+  
+  <!-- Korean Keyboard Modal -->
+  <div id="koreanKeyboardModal" class="keyboard-modal">
+	<div class="keyboard-content">
+	  <a href="#" class="close-keyboard">&times;</a>
+	  <div class="keyboard-row">
+		<button class="key">ㅂ</button><button class="key">ㅈ</button><button class="key">ㄷ</button><button class="key">ㄱ</button>
+		<button class="key">ㅅ</button><button class="key">ㅛ</button><button class="key">ㅕ</button><button class="key">ㅑ</button>
+		<button class="key">ㅐ</button><button class="key">ㅔ</button>
+	  </div>
+	  <div class="keyboard-row">
+		<button class="key">ㅁ</button><button class="key">ㄴ</button><button class="key">ㅇ</button><button class="key">ㄹ</button>
+		<button class="key">ㅎ</button><button class="key">ㅗ</button><button class="key">ㅓ</button><button class="key">ㅏ</button>
+		<button class="key">ㅣ</button>
+	  </div>
+	  <div class="keyboard-row">
+		<button class="key">ㅋ</button><button class="key">ㅌ</button><button class="key">ㅊ</button><button class="key">ㅍ</button>
+		<button class="key">ㅠ</button><button class="key">ㅜ</button><button class="key">ㅡ</button>
+		<button class="key delete">←</button>
+		<button class="key space">Space</button>
+	  </div>
+	</div>
+  </div>
+  
+
+
+  
+
+<script src="hangul_archive.js"></script>
+
+</body>
+
+</html>
